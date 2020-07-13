@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RC2_DoBillsCannery.label>can food at cannery</RC2_DoBillsCannery.label>
+  <RC2_DoBillsCannery.verb>canning</RC2_DoBillsCannery.verb>
+  <RC2_DoBillsCannery.gerund>canning</RC2_DoBillsCannery.gerund>
+
+  <RC2_DoBillsCookomatic.label>cook meals at a cook-o-matic</RC2_DoBillsCookomatic.label>
+  <RC2_DoBillsCookomatic.verb>cook</RC2_DoBillsCookomatic.verb>
+  <RC2_DoBillsCookomatic.gerund>cooking at</RC2_DoBillsCookomatic.gerund>
+
+
+</LanguageData>

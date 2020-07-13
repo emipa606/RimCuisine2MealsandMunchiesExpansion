@@ -47,6 +47,37 @@
     </defaultIngredientFilter>
   </RecipeDef>
   <RecipeDef ParentName="RC2_CanningRecipeBase">
+    <defName>RC2_CookCannedMeatBulk</defName>
+    <label>make canned meat in bulk</label>
+    <description>Put meat in a sterlized can to prevent rotting. Works with any meat, including insect and human meat!</description>
+    <jobString>Canning meat.</jobString>
+    <workAmount>4000</workAmount>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+          </categories>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <products>
+      <RC2_CannedMeat>20</RC2_CannedMeat>
+    </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>MeatRaw</li>
+      </categories>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>MeatRaw</li>
+      </categories>
+    </defaultIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="RC2_CanningRecipeBase">
     <defName>RC2_CookCannedFruit</defName>
     <label>make canned fruit</label>
     <description>Put fruit in a sterlized can to prevent rotting.</description>
@@ -64,6 +95,37 @@
     </ingredients>
     <products>
       <RC2_CannedFruit>5</RC2_CannedFruit>
+    </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>RC2_FruitsRaw</li>
+      </categories>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>RC2_FruitsRaw</li>
+      </categories>
+    </defaultIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="RC2_CanningRecipeBase">
+    <defName>RC2_CookCannedFruitBulk</defName>
+    <label>make canned fruit in bulk</label>
+    <description>Put fruit in a sterlized can to prevent rotting.</description>
+    <jobString>Canning fruit.</jobString>
+    <workAmount>4000</workAmount>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>RC2_FruitsRaw</li>
+          </categories>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <products>
+      <RC2_CannedFruit>20</RC2_CannedFruit>
     </products>
     <fixedIngredientFilter>
       <categories>
@@ -107,6 +169,37 @@
     </defaultIngredientFilter>
   </RecipeDef>
   <RecipeDef ParentName="RC2_CanningRecipeBase">
+    <defName>RC2_CookCannedVegetablesBulk</defName>
+    <label>make canned vegetables in bulk</label>
+    <description>Put vegetables in a sterlized can to prevent rotting.</description>
+    <jobString>Canning vegetables.</jobString>
+    <workAmount>4000</workAmount>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>RC2_VegetablesRaw</li>
+          </categories>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <products>
+      <RC2_CannedVegetables>20</RC2_CannedVegetables>
+    </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>RC2_VegetablesRaw</li>
+      </categories>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>RC2_VegetablesRaw</li>
+      </categories>
+    </defaultIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="RC2_CanningRecipeBase">
     <defName>RC2_CookCannedMeal</defName>
     <label>make canned meals</label>
     <description>Repackage a simple meal into sterilized cans to keep it from spoiling. Makes 10 canned meals out of five simple meals.</description>
@@ -123,6 +216,36 @@
     </ingredients>
     <products>
       <RC2_CannedMeal>10</RC2_CannedMeal>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MealSimple</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>MealSimple</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="RC2_CanningRecipeBase">
+    <defName>RC2_CookCannedMealBulk</defName>
+    <label>make canned meals in bulk</label>
+    <workAmount>4000</workAmount>
+    <description>Repackage a simple meal into sterilized cans to keep it from spoiling. Makes 40 canned meals out of ten simple meals.</description>
+    <jobString>Canning meals.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MealSimple</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <products>
+      <RC2_CannedMeal>40</RC2_CannedMeal>
     </products>
     <fixedIngredientFilter>
       <thingDefs>
@@ -510,7 +633,7 @@
             <li>AnimalProductRaw</li>
           </categories>
         </filter>
-        <count>0.5</count>
+        <count>5</count>
       </li>
       <li>
         <filter>
@@ -519,7 +642,7 @@
             <li>RC2_FruitProcessed</li>
           </categories>
         </filter>
-        <count>0.5</count>
+        <count>5</count>
       </li>
       <li>
         <filter>
@@ -528,7 +651,7 @@
             <li>RC2_GrainsProcessed</li>
           </categories>
         </filter>
-        <count>0.5</count>
+        <count>5</count>
       </li>
       <li>
         <filter>
@@ -537,11 +660,11 @@
             <li>RC2_VegetablesProcessed</li>
           </categories>
         </filter>
-        <count>0.5</count>
+        <count>5</count>
       </li>
     </ingredients>
     <products>
-      <RC2_ExtravagantMeal>1</RC2_ExtravagantMeal>
+      <RC2_ExtravagantMeal>10</RC2_ExtravagantMeal>
     </products>
     <skillRequirements>
       <Cooking>15</Cooking>

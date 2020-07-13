@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <NoFermentingIngredient>need ingredient</NoFermentingIngredient>
+
+  <RC2_Icecream.label>cooled down by icecream</RC2_Icecream.label>
+
 
 </LanguageData>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ate as Ingredient Thoughts -->
+
+  <AteExtravagantMeal.stages.0.label>ate extravagant meal</AteExtravagantMeal.stages.0.label>
+  <AteExtravagantMeal.stages.0.description>I... I have no words.. is.. is this what the gods eat? Do they eat like this on glitterworlds?</AteExtravagantMeal.stages.0.description>
+
+  <AteCannedMeal.stages.0.label>ate canned meal</AteCannedMeal.stages.0.label>
+  <AteCannedMeal.stages.0.description>Eh.  Canned meals aren't as good as freshly cooked ones, but it could be worse.</AteCannedMeal.stages.0.description>
+
+  <AteCannedMeatAsIngredient.stages.0.label>ate canned meat</AteCannedMeatAsIngredient.stages.0.label>
+  <AteCannedMeatAsIngredient.stages.0.description>I don't want to know what kind of meat this is, but whatever it is, ick.</AteCannedMeatAsIngredient.stages.0.description>
+
+  <AteCannedFruitAsIngredient.stages.0.label>ate canned fruit</AteCannedFruitAsIngredient.stages.0.label>
+  <AteCannedFruitAsIngredient.stages.0.description>You know what, this ain't too bad!</AteCannedFruitAsIngredient.stages.0.description>
+
+  <AteCannedVegetablesAsIngredient.stages.0.label>ate canned vegetables</AteCannedVegetablesAsIngredient.stages.0.label>
+  <AteCannedVegetablesAsIngredient.stages.0.description>Eh, could be worse, but it has a tinny flavor.</AteCannedVegetablesAsIngredient.stages.0.description>
+
+  <AteFruitPreserves.stages.0.label>ate fruit preserves</AteFruitPreserves.stages.0.label>
+  <AteFruitPreserves.stages.0.description>Yum!</AteFruitPreserves.stages.0.description>
+
+  <AteFruitPreservesAsIngredient.stages.0.label>ate fruit preserves in a meal</AteFruitPreservesAsIngredient.stages.0.label>
+  <AteFruitPreservesAsIngredient.stages.0.description>Yum!</AteFruitPreservesAsIngredient.stages.0.description>
+
+  <AteIcecream.stages.0.label>ate icecream</AteIcecream.stages.0.label>
+  <AteIcecream.stages.0.description>Delicious, yummy icecream!</AteIcecream.stages.0.description>
+
+  <AteChocolateIcecream.stages.0.label>ate chocolate icecream</AteChocolateIcecream.stages.0.label>
+  <AteChocolateIcecream.stages.0.description>Delicious, yummy chocolate!</AteChocolateIcecream.stages.0.description>
+
+
+</LanguageData>

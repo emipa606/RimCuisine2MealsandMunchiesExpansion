@@ -766,6 +766,124 @@
       <MealFine>10</MealFine>
     </products>
   </RecipeDef>
+  <RecipeDef ParentName="RC2_CookMealBase">
+    <defName>RC2_CookLavishMealBulk</defName>
+    <label>cook lavish meal in bulk</label>
+    <description>Cook a very complex meal from a combination of meat and plant ingredients.</description>
+    <jobString>Cooking lavish meal.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>True</allowMixingIngredients>
+    <workAmount>1500</workAmount>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <recipeUsers>
+      <li>RC2_Cookomatic</li>
+    </recipeUsers>
+    <fixedIngredientFilter>
+      <disallowedCategories>
+        <li>RC2_SweetsRaw</li>
+        <li>RC2_SweetsProcessed</li>
+      </disallowedCategories>
+    </fixedIngredientFilter>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+            <li>RC2_MeatProcessed</li>
+            <li>RC2_AnimalProductProcessed</li>
+            <li>AnimalProductRaw</li>
+          </categories>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>RC2_VegetablesRaw</li>
+            <li>RC2_VegetablesProcessed</li>
+            <li>RC2_FruitsRaw</li>
+            <li>RC2_FruitProcessed</li>
+            <li>RC2_GrainsRaw</li>
+            <li>RC2_GrainsProcessed</li>
+          </categories>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <products>
+      <MealLavish>10</MealLavish>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="RC2_CookMealBase">
+    <defName>RC2_CookExtravagantMealBulk</defName>
+    <label>cook extravagant meal in bulk</label>
+    <description>Cooks an extravagant meal out of meat, grains, vegetables, and fruit.</description>
+    <jobString>Cooking extravagant meal.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>True</allowMixingIngredients>
+    <workAmount>1500</workAmount>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <recipeUsers>
+      <li>RC2_Cookomatic</li>
+    </recipeUsers>
+    <fixedIngredientFilter>
+      <disallowedCategories>
+        <li>RC2_SweetsRaw</li>
+        <li>RC2_SweetsProcessed</li>
+      </disallowedCategories>
+    </fixedIngredientFilter>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+            <li>RC2_MeatProcessed</li>
+            <li>RC2_AnimalProductProcessed</li>
+            <li>AnimalProductRaw</li>
+          </categories>
+        </filter>
+        <count>0.5</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>RC2_FruitsRaw</li>
+            <li>RC2_FruitProcessed</li>
+          </categories>
+        </filter>
+        <count>0.5</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>RC2_GrainsRaw</li>
+            <li>RC2_GrainsProcessed</li>
+          </categories>
+        </filter>
+        <count>0.5</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>RC2_VegetablesRaw</li>
+            <li>RC2_VegetablesProcessed</li>
+          </categories>
+        </filter>
+        <count>0.5</count>
+      </li>
+    </ingredients>
+    <products>
+      <RC2_ExtravagantMeal>1</RC2_ExtravagantMeal>
+    </products>
+    <skillRequirements>
+      <Cooking>15</Cooking>
+    </skillRequirements>
+    <researchPrerequisite>RC2_AdvancedCooking</researchPrerequisite>
+  </RecipeDef>
   <RecipeDef>
     <defName>RC2_Make_KibbleBulk</defName>
     <label>make kibble in bulk</label>
