@@ -6,6 +6,7 @@
   <supportedVersions>
     <li>1.0</li>
     <li>1.1</li>
+    <li>1.2</li>
   </supportedVersions>
   <modDependencies>
     <li>
@@ -31,7 +32,7 @@ https://github.com/emipa606/RimCuisine2MealsandMunchiesExpansion
 --- Original Description ---
 RimCuisine 2: Meals and Munchies Expansion for 1.0
 
-Welcome to RimCuisine 2: Meals and Munchies! This expansion mod is focused on expanding your colonyâ€™s repertoire of snacks, foods, and meals for your pawns to gorge themselves on!
+Welcome to RimCuisine 2: Meals and Munchies! This expansion mod is focused on expanding your colony’s repertoire of snacks, foods, and meals for your pawns to gorge themselves on!
 
 ------------------------------------------------------------
 
@@ -41,7 +42,7 @@ New Meals: Make primitive nutrient paste in the form of Rubaboo or revel in glut
 
 New Food Preservation: Make ingredients last basically forever by canning them! Canned meat, canned vegetables, canned fruit, and canned meals can be made at a cannery! Canneries require electricity and use steel as a fuel source. Canned goods are not only a great way to preserve and store food (being 5x as compact as raw ingredients and last forever), but also are a good trading commodity! Everyone loves canned goods!
 
-The Rim-Co Cook-o-Matic 9,000,000,000 XXXL: This high-tech piece of machinery, made from spacer components, plasteel, and a lot of love is your colonyâ€™s solution to.. Well, anything food related. Despite being a power hog at 800 W, this machine lets you produce just about any food en masse. Mass produced meals, ingredients, snacks, and drinks! Requires less skill to make stuff than a regular stove, plus saves time! The Cook-o-Matic requires both Advanced Cooking and the Fabrication techs to make, plus plasteel and spacer components (subject to balancing in time).
+The Rim-Co Cook-o-Matic 9,000,000,000 XXXL: This high-tech piece of machinery, made from spacer components, plasteel, and a lot of love is your colony’s solution to.. Well, anything food related. Despite being a power hog at 800 W, this machine lets you produce just about any food en masse. Mass produced meals, ingredients, snacks, and drinks! Requires less skill to make stuff than a regular stove, plus saves time! The Cook-o-Matic requires both Advanced Cooking and the Fabrication techs to make, plus plasteel and spacer components (subject to balancing in time).
 
 --------------------------------------------------
 
@@ -53,9 +54,9 @@ To-do List:
 
 Work on balance!
 Minor art tweaks and fixes.
-Bugfixes (hopefully there arenâ€™t any!)
+Bugfixes (hopefully there aren’t any!)
 Compatibility patches!
-More snacks?!?! Weâ€™ll see!
+More snacks?!?! We’ll see!
 
 --------------------------------------------------
 
