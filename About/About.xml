@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>RimCuisine 2 Meals and Munchies Expansion (Continued)</name>
   <author>Crustypeanut</author>
@@ -7,6 +7,7 @@
     <li>1.0</li>
     <li>1.1</li>
     <li>1.2</li>
+    <li>1.3</li>
   </supportedVersions>
   <modDependencies>
     <li>
@@ -18,49 +19,63 @@
   <loadAfter>
     <li>Crustypeanut.RC2.Core</li>
   </loadAfter>
-  <description>Update of Crustypeanuts mod for RimWorld 1.1
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+Update of Crustypeanuts mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1833592940
 
-[img]https://i.imgur.com/GYswkZ7.png[/img]
+- Added bulk recipes for canned-stuff, lavish and extravagant meals.
 
-Support-chat:
-https://invite.gg/mlie
+[img]https://i.imgur.com/7Gzt3Rg.png[/img]
 
-Non-steam version:
-https://github.com/emipa606/RimCuisine2MealsandMunchiesExpansion
+[table]
+	[tr]
+		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+		[td][url=https://github.com/emipa606/RimCuisine2MealsandMunchiesExpansion][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+	[/tr]
+[/table]
 	
---- Original Description ---
-RimCuisine 2: Meals and Munchies Expansion for 1.0
+[img]https://i.imgur.com/NOW7jU1.png[/img]
 
-Welcome to RimCuisine 2: Meals and Munchies! This expansion mod is focused on expanding your colony’s repertoire of snacks, foods, and meals for your pawns to gorge themselves on!
+[b]RimCuisine 2: Meals and Munchies Expansion for 1.0[/b]
+
+Welcome to RimCuisine 2: Meals and Munchies! This expansion mod is focused on expanding your colony’s repertoire of snacks, foods, and meals for your pawns to gorge themselves on!  
 
 ------------------------------------------------------------
 
-New Snacks: New snacks including crisps (chips), cupcakes, and icecream for your pawns to delight themselves on!
+[b]New Snacks:[/b] New snacks including crisps (chips), cupcakes, and icecream for your pawns to delight themselves on!
 
-New Meals: Make primitive nutrient paste in the form of Rubaboo or revel in gluttonous excess with the Extravagant Meal!
+[b]New Meals:[/b] Make primitive nutrient paste in the form of Rubaboo or revel in gluttonous excess with the Extravagant Meal!  
 
-New Food Preservation: Make ingredients last basically forever by canning them! Canned meat, canned vegetables, canned fruit, and canned meals can be made at a cannery! Canneries require electricity and use steel as a fuel source. Canned goods are not only a great way to preserve and store food (being 5x as compact as raw ingredients and last forever), but also are a good trading commodity! Everyone loves canned goods!
+[b]New Food Preservation:[/b] Make ingredients last basically forever by canning them! Canned meat, canned vegetables, canned fruit, and canned meals can be made at a cannery! Canneries require electricity and use steel as a fuel source.  Canned goods are not only a great way to preserve and store food (being 5x as compact as raw ingredients and last forever), but also are a good trading commodity! Everyone loves canned goods! 
 
-The Rim-Co Cook-o-Matic 9,000,000,000 XXXL: This high-tech piece of machinery, made from spacer components, plasteel, and a lot of love is your colony’s solution to.. Well, anything food related. Despite being a power hog at 800 W, this machine lets you produce just about any food en masse. Mass produced meals, ingredients, snacks, and drinks! Requires less skill to make stuff than a regular stove, plus saves time! The Cook-o-Matic requires both Advanced Cooking and the Fabrication techs to make, plus plasteel and spacer components (subject to balancing in time).
-
---------------------------------------------------
-
-Like my mods? Consider supporting me with delicious caffeine![ko-fi.com]
+[b]The Rim-Co Cook-o-Matic 9,000,000,000 XXXL:[/b] This high-tech piece of machinery, made from spacer components, plasteel, and a lot of love is your colony’s solution to.. Well, anything food related.  Despite being a power hog at 800 W, this machine lets you produce just about any food en masse.  Mass produced meals, ingredients, snacks, and drinks! Requires less skill to make stuff than a regular stove, plus saves time! The Cook-o-Matic requires both Advanced Cooking and the Fabrication techs to make, plus plasteel and spacer components (subject to balancing in time).
 
 --------------------------------------------------
 
-To-do List:
+[b]To-do List:[/b]
 
 Work on balance!
-Minor art tweaks and fixes.
+Minor art tweaks and fixes.  
 Bugfixes (hopefully there aren’t any!)
 Compatibility patches!
 More snacks?!?! We’ll see!
 
 --------------------------------------------------
 
-Compatibilities:
+[b]Compatibilities:[/b]
 
-Same compatibilities as RimCuisine 2! Go read my rant over there! ;)</description>
+Same compatibilities as RimCuisine 2! Go read my rant over there! ;)
+
+
+[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
+</description>
 </ModMetaData>
+

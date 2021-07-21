@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BenchBase">
+    <defName>RC2_Cannery</defName>
+    <label>cannery</label>
+    <thingClass>Building_WorkTable_HeatPush</thingClass>
+    <description>An electrically-powered tabletop with all the necessary equipment to make canned goods.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Buildings/Cannery/Cannery</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3.5,1.5)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <constructEffect>ConstructMetal</constructEffect>
+    <costList>
+      <Steel>120</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToBuild>3000</WorkToBuild>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <size>(3,1)</size>
+    <designationCategory>RC2_RimCuisine</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <pathCost>70</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <basePowerConsumption>400</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Refuelable">
+        <fuelLabel>Steel until empty</fuelLabel>
+        <fuelGizmoLabel>Steel available</fuelGizmoLabel>
+        <fuelFilter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelCapacity>120</fuelCapacity>
+        <fuelConsumptionRate>60.0</fuelConsumptionRate>
+        <initialFuelPercent>0</initialFuelPercent>
+        <autoRefuelPercent>0.25</autoRefuelPercent>
+        <showFuelGizmo>true</showFuelGizmo>
+        <minimumFueledThreshold>1</minimumFueledThreshold>
+        <fuelMultiplier>3</fuelMultiplier>
+        <factorByDifficulty>false</factorByDifficulty>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+        <outOfFuelMessage>Cannot work: Not enough steel.</outOfFuelMessage>
+      </li>
+    </comps>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <researchPrerequisites>
+      <li>RC2_AdvancedFoodPreservation</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <!--<ThingDef ParentName="BuildingBase">
+		<defName>RC2_GruelPot</defName>
+		<label>gruel pot</label>
+		<description>A heated pot that is usually kept full at all times.  Turns raw grains (including wheat) into not-so-delicious gruel.</description>
+		<thingClass>ExpandableFermenting.Building_Processing</thingClass> 
+		<graphicData>
+			<texPath>RC2_Things/RC2_Buildings/GruelPot/GruelPot</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawRotated>false</drawRotated>
+			<allowFlip>false</allowFlip>
+			<damageData>
+				<rect>(0.2,0,0.6,0.1)</rect>
+			</damageData>
+			<drawSize>(1.3,1.3)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.45</fillPercent>
+		<pathCost>60</pathCost>
+		<statBases>
+			<WorkToBuild>150</WorkToBuild>
+			<Mass>5</Mass>
+			<MaxHitPoints>25</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<costStuffCount>20</costStuffCount>
+		<costList>
+			<WoodLog>5</WoodLog>
+		</costList>
+		<stuffCategories>
+			<li>Stony</li>
+		</stuffCategories>
+		<comps>
+			<li Class="ExpandableFermenting.CompProperties_Processing">
+				<ingredientFilter> 
+					<categories>
+						<li>RC2_GrainsRaw</li>
+					</categories>
+					<thingDefs>
+						<li>RC2_RawWheat</li>
+					</thingDefs>
+				</ingredientFilter> 
+				<ingredientLabel>grains</ingredientLabel> 
+				<productDef>RC2_Gruel</productDef> 
+				<capacity>10</capacity>
+				<fermentationDuration>15000</fermentationDuration>
+			</li>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>600.0</fuelConsumptionRate>
+				<fuelCapacity>5.0</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</fuelFilter>
+				<initialFuelPercent>1</initialFuelPercent>
+			</li>
+			<li Class="CompProperties_Forbiddable"/>
+		</comps>
+		<tickerType>Normal</tickerType>
+		<rotatable>true</rotatable>
+		<designationCategory>Production</designationCategory>
+		<researchPrerequisites>
+			<li>RC2_BasicCooking</li>
+		</researchPrerequisites>
+	</ThingDef>-->
+  <ThingDef ParentName="BenchBase">
+    <defName>RC2_Cookomatic</defName>
+    <label>Cook-o-Matic</label>
+    <description>THE COOK-O-MATIC 9,000,000,000 XXXL! Brought to you by RimCo., the same people who brought you Rim-Cola Classic! Cooks meals 9,000,000,000x faster than a lobotomized tribal chef! So easy even a trained monkey can operate it! ***Do not operate machinery if under the age of 18 or intoxicated.  Under no circumstances should you ever stick genitalia into the receptical.  RimCo. is not responsible for loss of limb or genitalia, spontaneous growth of additional body parts, or loss of sanity and/or virginity that occurs during operation of the COOK-O-MATIC 9,000,000,000 XXXL,  Do not allow trained monkeys or lobotomized natives to operate machinery without adult supervision.</description>
+    <thingClass>Building_WorkTable</thingClass>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>70</pathCost>
+    <statBases>
+      <MaxHitPoints>400</MaxHitPoints>
+      <WorkToBuild>5000</WorkToBuild>
+      <Flammability>0.0</Flammability>
+    </statBases>
+    <minifiedDef />
+    <thingCategories Inherit="false" />
+    <size>(5,2)</size>
+    <costList>
+      <Plasteel>200</Plasteel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+      <ComponentSpacer>4</ComponentSpacer>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>800</basePowerConsumption>
+        <shortCircuitInRain>true</shortCircuitInRain>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Glower">
+        <glowRadius>4</glowRadius>
+        <glowColor>(89,188,255,0)</glowColor>
+      </li>
+    </comps>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Buildings/Cookomatic/Cookomatic</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(7,4)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <castEdgeShadows>false</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <fillPercent>0.5</fillPercent>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <hasInteractionCell>true</hasInteractionCell>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <designationCategory>RC2_RimCuisine</designationCategory>
+    <surfaceType>Item</surfaceType>
+    <designationHotKey>Misc12</designationHotKey>
+    <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+    <researchPrerequisites>
+      <li>Fabrication</li>
+      <li>RC2_AdvancedCooking</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>RC2_CheesePress</defName>
+    <label>cheese press</label>
+    <description>A weighted contraption designed to press the remaining whey out of cheese curds to form it into a nice tough wheel of cheese.</description>
+    <thingClass>ExpandableFermenting.Building_Processing</thingClass>
+    <!-- Can also use ExpandableFermenting.Building_Processing. Combine with CompProperties_Processing. -->
+    <graphicData>
+      <texPath>RC2_Things/RC2_Buildings/CheesePress/CheesePress</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawRotated>false</drawRotated>
+      <damageData>
+        <rect>(0.05,0.1,0.9,0.9)</rect>
+      </damageData>
+      <shadowData>
+        <volume>(0.75, 0.35, 0.33)</volume>
+      </shadowData>
+      <drawSize>(1.3,1.3)</drawSize>
+    </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.45</fillPercent>
+    <pathCost>60</pathCost>
+    <thingCategories>
+      <li>BuildingsProduction</li>
+    </thingCategories>
+    <statBases>
+      <WorkToBuild>300</WorkToBuild>
+      <Mass>20</Mass>
+      <MaxHitPoints>75</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <costStuffCount>25</costStuffCount>
+    <stuffCategories>
+      <li>Woody</li>
+    </stuffCategories>
+    <comps>
+      <!-- Can also use power, flickable, refuelable, and breakdownable components. -->
+      <li Class="ExpandableFermenting.CompProperties_Processing">
+        <ingredientDef>RC2_MilkCurd</ingredientDef>
+        <ingredientLabel>milk curds</ingredientLabel>
+        <productDef>RC2_Cheese</productDef>
+        <!-- Must be defined. -->
+        <capacity>25</capacity>
+        <fermentationDuration>60000</fermentationDuration>
+        <!-- <minIdealTemperature>7.0</minIdealTemperature> is default. Beer is not ruined below this temperature, but progress slows. Not used for CompProperties_Processing. -->
+        <!--<processFinishedLabel>Pickled</processFinishedLabel> -->
+        <!-- <idealTempLabel>Ideal fermenting temperature</idealTempLabel> is default. "Ideal processing temperature" is default for CompProperties_Processing. -->
+        <!-- <outOfIdealTemperatureLabel>Non-ideal temperature. Fermentation speed:</outOfIdealTemperatureLabel> is default. Not used for CompProperties_Processing. -->
+      </li>
+      <li Class="CompProperties_Forbiddable" />
+    </comps>
+    <tickerType>Rare</tickerType>
+    <rotatable>true</rotatable>
+    <designationCategory>RC2_RimCuisine</designationCategory>
+    <researchPrerequisites>
+      <li>PackagedSurvivalMeal</li>
+    </researchPrerequisites>
+  </ThingDef>
+</Defs>

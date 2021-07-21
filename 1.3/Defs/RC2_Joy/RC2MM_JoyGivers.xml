@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <JoyGiverDef>
+    <defName>RC2_EatIcecream</defName>
+    <giverClass>JoyGiver_Ingest</giverClass>
+    <baseChance>5</baseChance>
+    <thingDefs>
+      <li>RC2_MealIceCream</li>
+      <li>RC2_MealChocolateIceCream</li>
+    </thingDefs>
+    <joyKind>Gluttonous</joyKind>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </JoyGiverDef>
+  <JoyGiverDef>
+    <defName>RC2_EatSnacks</defName>
+    <giverClass>JoyGiver_Ingest</giverClass>
+    <baseChance>5</baseChance>
+    <thingDefs>
+      <li>RC2_MealCupcake</li>
+      <li>RC2_MealCrisps</li>
+    </thingDefs>
+    <joyKind>Gluttonous</joyKind>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </JoyGiverDef>
+</Defs>
