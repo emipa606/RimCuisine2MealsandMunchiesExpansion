@@ -1,5 +1,8 @@
 # Changelog for RimCuisine2MealsandMunchiesExpansion
 
+1.0.6.0 - As the Universal Fermenter has been superseded by [SYR] Processor Framework the mod has been updated to use this instead.
+
+
 1.0.5.0 - Now points to the continued version and uses UF
 
 
