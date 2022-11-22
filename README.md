@@ -6,8 +6,9 @@ Update of Crustypeanuts mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1833592940
 
 - Added bulk recipes for canned-stuff, lavish and extravagant meals.
-- The 1.3 mod now uses the https://steamcommunity.com/sharedfiles/filedetails/?id=2558008936]Universal Fermenter instead of the previously included Expandable Fermenting
-- UF code and graphics by Charlotte
+[strike]- The 1.3 mod now uses the https://steamcommunity.com/sharedfiles/filedetails/?id=2558008936]Universal Fermenter instead of the previously included Expandable Fermenting
+- UF code and graphics by Charlotte[/strike]
+- As the Universal Fermenter has been superseded by https://steamcommunity.com/sharedfiles/filedetails/?id=2633514537][SYR] Processor Framework the mod has been updated to use this instead.
 
 ![Image](https://i.imgur.com/7Gzt3Rg.png)
 
@@ -71,5 +72,6 @@ Same compatibilities as RimCuisine 2! Go read my rant over there! ;)
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 

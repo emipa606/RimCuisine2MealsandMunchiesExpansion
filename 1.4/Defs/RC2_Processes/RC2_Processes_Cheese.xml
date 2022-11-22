@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ProcessorFramework.ProcessDef>
+    <defName>RC2_Cheese_Process</defName>
+    <thingDef>RC2_Cheese</thingDef>
+    <ingredientFilter>
+      <thingDefs>
+        <li>RC2_MilkCurd</li>
+      </thingDefs>
+    </ingredientFilter>
+    <processDays>1</processDays>
+    <usesTemperature>true</usesTemperature>
+    <temperatureSafe>-1.0~32.0</temperatureSafe>
+    <temperatureIdeal>7.0~32.0</temperatureIdeal>
+  </ProcessorFramework.ProcessDef>
+</Defs>
