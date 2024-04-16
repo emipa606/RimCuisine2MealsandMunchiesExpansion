@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--=============== Meals ====================-->
+  <!--<ThingDef ParentName="MealBase">
+    <defName>RC2_Gruel</defName>
+    <label>gruel</label>
+    <description>A horribly bland thick soup made from grain - and thats it.  Doesn't taste good and is a chore to eat.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Food/Gruel</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>.1</MarketValue>
+	  <Nutrition>0.10</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealAwful</preferability>
+	  <tasteThought>AteAwfulMeal</tasteThought>
+	  <optimalityOffsetHumanlikes>-1</optimalityOffsetHumanlikes>
+			<ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+	<comps>
+		<li Class="CompProperties_Rottable">
+			<daysToRotStart>7</daysToRotStart>
+			<rotDestroys>true</rotDestroys>
+		</li>
+    </comps>
+	<tradeability>Buyable</tradeability>
+  </ThingDef>-->
+  <ThingDef ParentName="OrganicProductBase">
+    <defName>RC2_Cheese</defName>
+    <label>cheese</label>
+    <thingClass>ThingWithComps</thingClass>
+    <description>A hunk of delicious golden curdled milk known as cheese. Can't ever get enough of this stuff.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Food/Cheese</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <tradeability>All</tradeability>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <thingCategories>
+      <li>RC2_AnimalProductProcessed</li>
+    </thingCategories>
+    <statBases>
+      <MarketValue>3</MarketValue>
+      <Mass>0.015</Mass>
+      <WorkToMake>300</WorkToMake>
+      <DeteriorationRate>2</DeteriorationRate>
+      <Nutrition>0.25</Nutrition>
+    </statBases>
+    <ingestible>
+      <foodType>AnimalProduct, Processed</foodType>
+      <chairSearchRadius>-10</chairSearchRadius>
+      <preferability>RawBad</preferability>
+      <tasteThought>RC2_AteCheese</tasteThought>
+      <specialThoughtAsIngredient>AteCheeseAsIngredient</specialThoughtAsIngredient>
+      <optimalityOffsetHumanlikes>1</optimalityOffsetHumanlikes>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>120</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+      <li Class="CompProperties_Ingredients" />
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantFoodRawBase">
+    <defName>RC2_MilkCurd</defName>
+    <label>milk curds</label>
+    <description>Curdled milk, a major step along the road to making cheese.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Food/Curd</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>.5</MarketValue>
+      <Mass>0.10</Mass>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <techLevel>Neolithic</techLevel>
+    <ingestible>
+      <foodType>Processed</foodType>
+      <preferability>DesperateOnly</preferability>
+    </ingestible>
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Ingredients" />
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>2</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

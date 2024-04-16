@@ -1,0 +1,717 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef Name="RC2_CanningRecipeBase" Abstract="True">
+    <defName>RecipeBase</defName>
+    <label>make canned food</label>
+    <description>Can some food.</description>
+    <jobString>Canning food.</jobString>
+    <workAmount>1000</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workSkill>Cooking</workSkill>
+    <recipeUsers>
+      <li>RC2_Cannery</li>
+    </recipeUsers>
+    <!--<researchPrerequisite>RC2_AdvancedFoodPreservation</researchPrerequisite>-->
+  </RecipeDef>
+  <RecipeDef ParentName="RC2_CanningRecipeBase">
+    <defName>RC2_CookCannedMeat</defName>
+    <label>make canned meat</label>
+    <description>Put meat in a sterlized can to prevent rotting. Works with any meat, including insect and human meat!</description>
+    <jobString>Canning meat.</jobString>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+          </categories>
+        </filter>
+        <count>1.25</count>
+      </li>
+    </ingredients>
+    <products>
+      <RC2_CannedMeat>5</RC2_CannedMeat>
+    </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>MeatRaw</li>
+      </categories>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>MeatRaw</li>
+      </categories>
+    </defaultIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="RC2_CanningRecipeBase">
+    <defName>RC2_CookCannedMeatBulk</defName>
+    <label>make canned meat in bulk</label>
+    <description>Put meat in a sterlized can to prevent rotting. Works with any meat, including insect and human meat!</description>
+    <jobString>Canning meat.</jobString>
+    <workAmount>4000</workAmount>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+          </categories>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <products>
+      <RC2_CannedMeat>20</RC2_CannedMeat>
+    </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>MeatRaw</li>
+      </categories>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>MeatRaw</li>
+      </categories>
+    </defaultIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="RC2_CanningRecipeBase">
+    <defName>RC2_CookCannedFruit</defName>
+    <label>make canned fruit</label>
+    <description>Put fruit in a sterlized can to prevent rotting.</description>
+    <jobString>Canning fruit.</jobString>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>RC2_FruitsRaw</li>
+          </categories>
+        </filter>
+        <count>1.25</count>
+      </li>
+    </ingredients>
+    <products>
+      <RC2_CannedFruit>5</RC2_CannedFruit>
+    </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>RC2_FruitsRaw</li>
+      </categories>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>RC2_FruitsRaw</li>
+      </categories>
+    </defaultIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="RC2_CanningRecipeBase">
+    <defName>RC2_CookCannedFruitBulk</defName>
+    <label>make canned fruit in bulk</label>
+    <description>Put fruit in a sterlized can to prevent rotting.</description>
+    <jobString>Canning fruit.</jobString>
+    <workAmount>4000</workAmount>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>RC2_FruitsRaw</li>
+          </categories>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <products>
+      <RC2_CannedFruit>20</RC2_CannedFruit>
+    </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>RC2_FruitsRaw</li>
+      </categories>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>RC2_FruitsRaw</li>
+      </categories>
+    </defaultIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="RC2_CanningRecipeBase">
+    <defName>RC2_CookCannedVegetables</defName>
+    <label>make canned vegetables</label>
+    <description>Put vegetables in a sterlized can to prevent rotting.</description>
+    <jobString>Canning vegetables.</jobString>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>RC2_VegetablesRaw</li>
+          </categories>
+        </filter>
+        <count>1.25</count>
+      </li>
+    </ingredients>
+    <products>
+      <RC2_CannedVegetables>5</RC2_CannedVegetables>
+    </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>RC2_VegetablesRaw</li>
+      </categories>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>RC2_VegetablesRaw</li>
+      </categories>
+    </defaultIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="RC2_CanningRecipeBase">
+    <defName>RC2_CookCannedVegetablesBulk</defName>
+    <label>make canned vegetables in bulk</label>
+    <description>Put vegetables in a sterlized can to prevent rotting.</description>
+    <jobString>Canning vegetables.</jobString>
+    <workAmount>4000</workAmount>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>RC2_VegetablesRaw</li>
+          </categories>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <products>
+      <RC2_CannedVegetables>20</RC2_CannedVegetables>
+    </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>RC2_VegetablesRaw</li>
+      </categories>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>RC2_VegetablesRaw</li>
+      </categories>
+    </defaultIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="RC2_CanningRecipeBase">
+    <defName>RC2_CookCannedMeal</defName>
+    <label>make canned meals</label>
+    <description>Repackage a simple meal into sterilized cans to keep it from spoiling. Makes 10 canned meals out of five simple meals.</description>
+    <jobString>Canning meals.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MealSimple</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <products>
+      <RC2_CannedMeal>10</RC2_CannedMeal>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MealSimple</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>MealSimple</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="RC2_CanningRecipeBase">
+    <defName>RC2_CookCannedMealBulk</defName>
+    <label>make canned meals in bulk</label>
+    <workAmount>4000</workAmount>
+    <description>Repackage a simple meal into sterilized cans to keep it from spoiling. Makes 40 canned meals out of ten simple meals.</description>
+    <jobString>Canning meals.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MealSimple</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <products>
+      <RC2_CannedMeal>40</RC2_CannedMeal>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MealSimple</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>MealSimple</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+  </RecipeDef>
+  <!-- Joy foods and ingredients -->
+  <RecipeDef ParentName="RC2_CookJoyMealBase">
+    <defName>RC2_MakeFruitPreserves</defName>
+    <label>make fruit preserves</label>
+    <description>Uses sweets and fruit to preserve fruit.  Very tasty. Makes 5.</description>
+    <jobString>Baking pastries.</jobString>
+    <recipeUsers>
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>RC2_SweetsRaw</li>
+            <li>RC2_SweetsProcessed</li>
+          </categories>
+        </filter>
+        <count>.25</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>RC2_FruitsRaw</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <RC2_FruitPreserves>5</RC2_FruitPreserves>
+    </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>RC2_SweetsRaw</li>
+        <li>RC2_SweetsProcessed</li>
+        <li>RC2_FruitsRaw</li>
+      </categories>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>RC2_SweetsRaw</li>
+        <li>RC2_SweetsProcessed</li>
+        <li>RC2_FruitsRaw</li>
+      </categories>
+    </defaultIngredientFilter>
+    <skillRequirements>
+      <Cooking>5</Cooking>
+    </skillRequirements>
+    <researchPrerequisite>PackagedSurvivalMeal</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef ParentName="RC2_CookJoyMealBase">
+    <defName>RC2_Crisps</defName>
+    <label>make crisps</label>
+    <description>Make crisps out of vegetables, grains, or fruits.  Most commonly made out of potatos or corn though.  A tasty, salty snack! Makes 5.</description>
+    <jobString>Baking pastries.</jobString>
+    <recipeUsers>
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>RC2_GrainsRaw</li>
+            <li>RC2_GrainsProcessed</li>
+            <li>RC2_FruitsRaw</li>
+            <li>RC2_VegetablesRaw</li>
+          </categories>
+        </filter>
+        <count>1.25</count>
+      </li>
+    </ingredients>
+    <products>
+      <RC2_MealCrisps>5</RC2_MealCrisps>
+    </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>RC2_GrainsRaw</li>
+        <li>RC2_GrainsProcessed</li>
+        <li>RC2_FruitsRaw</li>
+        <li>RC2_VegetablesRaw</li>
+      </categories>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>RC2_GrainsRaw</li>
+        <li>RC2_GrainsProcessed</li>
+        <li>RC2_FruitsRaw</li>
+        <li>RC2_VegetablesRaw</li>
+      </categories>
+    </defaultIngredientFilter>
+    <skillRequirements>
+      <Cooking>3</Cooking>
+    </skillRequirements>
+    <researchPrerequisite>RC2_IntermediateCooking</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef ParentName="RC2_CookJoyMealBase">
+    <defName>RC2_MakeCupcake</defName>
+    <label>bake cupcakes</label>
+    <description>Cupcakes! These delicious, single-serve cakes are a tasty treat for birthday parties or parties in general.  Made out of flour, sweeteners, and eggs. Makes 10.</description>
+    <jobString>Baking pastries.</jobString>
+    <recipeUsers>
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>RC2_SweetsRaw</li>
+            <li>RC2_SweetsProcessed</li>
+          </categories>
+          <thingDefs>
+            <li>Chocolate</li>
+          </thingDefs>
+        </filter>
+        <count>.5</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>RC2_GrainsProcessed</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>EggsUnfertilized</li>
+          </categories>
+        </filter>
+        <count>.5</count>
+      </li>
+    </ingredients>
+    <products>
+      <RC2_MealCupcake>10</RC2_MealCupcake>
+    </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>RC2_SweetsRaw</li>
+        <li>RC2_SweetsProcessed</li>
+        <li>RC2_GrainsProcessed</li>
+        <li>EggsUnfertilized</li>
+      </categories>
+      <thingDefs>
+        <li>Chocolate</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>RC2_SweetsRaw</li>
+        <li>RC2_SweetsProcessed</li>
+        <li>RC2_GrainsProcessed</li>
+        <li>EggsUnfertilized</li>
+      </categories>
+      <thingDefs>
+        <li>Chocolate</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <skillRequirements>
+      <Cooking>5</Cooking>
+    </skillRequirements>
+    <researchPrerequisite>RC2_AdvancedCooking</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef ParentName="RC2_CookJoyMealBase">
+    <defName>RC2_MakeIcecream</defName>
+    <label>make icecream</label>
+    <description>Uses milk, sweeteners, and fruit to make a tub of icecream.  Delicious and great for cooling you down on a warm day! Makes 5.</description>
+    <jobString>Making icecream.</jobString>
+    <recipeUsers>
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>RC2_SweetsRaw</li>
+            <li>RC2_SweetsProcessed</li>
+          </categories>
+        </filter>
+        <count>.5</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>RC2_FruitsRaw</li>
+          </categories>
+        </filter>
+        <count>.5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Milk</li>
+          </thingDefs>
+        </filter>
+        <count>.5</count>
+      </li>
+    </ingredients>
+    <products>
+      <RC2_MealIceCream>5</RC2_MealIceCream>
+    </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>RC2_SweetsRaw</li>
+        <li>RC2_SweetsProcessed</li>
+        <li>RC2_FruitsRaw</li>
+      </categories>
+      <thingDefs>
+        <li>Milk</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>RC2_SweetsRaw</li>
+        <li>RC2_SweetsProcessed</li>
+        <li>RC2_FruitsRaw</li>
+      </categories>
+      <thingDefs>
+        <li>Milk</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <skillRequirements>
+      <Cooking>5</Cooking>
+    </skillRequirements>
+    <researchPrerequisite>RC2_AdvancedCooking</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef ParentName="RC2_CookJoyMealBase">
+    <defName>RC2_MakeChocolateIcecream</defName>
+    <label>make chocolate icecream</label>
+    <description>Uses milk, sweeteners, and chocolate to make a tub of chocolate icecream.  Delicious and great for cooling you down on a warm day! Makes 5.</description>
+    <jobString>Making chocolate icecream.</jobString>
+    <recipeUsers>
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>RC2_SweetsRaw</li>
+            <li>RC2_SweetsProcessed</li>
+          </categories>
+        </filter>
+        <count>.5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chocolate</li>
+          </thingDefs>
+        </filter>
+        <count>.5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Milk</li>
+          </thingDefs>
+        </filter>
+        <count>.5</count>
+      </li>
+    </ingredients>
+    <products>
+      <RC2_MealChocolateIceCream>5</RC2_MealChocolateIceCream>
+    </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>RC2_SweetsRaw</li>
+        <li>RC2_SweetsProcessed</li>
+      </categories>
+      <thingDefs>
+        <li>Chocolate</li>
+        <li>Milk</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>RC2_SweetsRaw</li>
+        <li>RC2_SweetsProcessed</li>
+      </categories>
+      <thingDefs>
+        <li>Chocolate</li>
+        <li>Milk</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <skillRequirements>
+      <Cooking>5</Cooking>
+    </skillRequirements>
+    <researchPrerequisite>RC2_AdvancedCooking</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef Name="RC2_CookRubaboo" ParentName="RC2_CookMealBase">
+    <defName>RC2_CookRubaboo</defName>
+    <label>cook rubaboo</label>
+    <description>Cooks a meal out of pemmican and just about anything else.  Great for lengthening food supplies. Try making it with pemmican and hardtack to really stretch out your food reserves!</description>
+    <jobString>Cooking rubaboo.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>True</allowMixingIngredients>
+    <workAmount>100</workAmount>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <recipeUsers>
+      <li>Campfire</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Pemmican</li>
+          </thingDefs>
+        </filter>
+        <count>.25</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RC2_Hardtack</li>
+          </thingDefs>
+        </filter>
+        <count>.25</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Pemmican</li>
+        <li>RC2_Hardtack</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>Pemmican</li>
+        <li>RC2_Hardtack</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <products>
+      <RC2_Rubaboo>1</RC2_Rubaboo>
+    </products>
+    <workSkill>Cooking</workSkill>
+    <researchPrerequisite>Pemmican</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef ParentName="RC2_CookMealBase">
+    <defName>RC2_CookExtravagantMeal</defName>
+    <label>cook extravagant meal</label>
+    <description>Cooks an extravagant meal out of meat, grains, vegetables, and fruit.</description>
+    <jobString>Cooking extravagant meal.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>True</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <recipeUsers>
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+    </recipeUsers>
+    <fixedIngredientFilter>
+      <disallowedCategories>
+        <li>RC2_SweetsRaw</li>
+        <li>RC2_SweetsProcessed</li>
+      </disallowedCategories>
+    </fixedIngredientFilter>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+            <li>RC2_MeatProcessed</li>
+            <li>RC2_AnimalProductProcessed</li>
+            <li>AnimalProductRaw</li>
+          </categories>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>RC2_FruitsRaw</li>
+            <li>RC2_FruitProcessed</li>
+          </categories>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>RC2_GrainsRaw</li>
+            <li>RC2_GrainsProcessed</li>
+          </categories>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>RC2_VegetablesRaw</li>
+            <li>RC2_VegetablesProcessed</li>
+          </categories>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <products>
+      <RC2_ExtravagantMeal>10</RC2_ExtravagantMeal>
+    </products>
+    <skillRequirements>
+      <Cooking>15</Cooking>
+    </skillRequirements>
+    <researchPrerequisite>RC2_AdvancedCooking</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef Name="RC2_MakeCurds">
+    <defName>RC2_MakeCurds</defName>
+    <label>curdle cheese</label>
+    <description>Begin the cheesemaking process by curdling milk.</description>
+    <jobString>Curdling milk.</jobString>
+    <workAmount>500</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <recipeUsers>
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+      <li>Campfire</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Milk</li>
+          </thingDefs>
+        </filter>
+        <count>0.50</count>
+      </li>
+    </ingredients>
+    <products>
+      <RC2_MilkCurd>5</RC2_MilkCurd>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Milk</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>Milk</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <workSkill>Cooking</workSkill>
+    <researchPrerequisite>Pemmican</researchPrerequisite>
+  </RecipeDef>
+</Defs>
