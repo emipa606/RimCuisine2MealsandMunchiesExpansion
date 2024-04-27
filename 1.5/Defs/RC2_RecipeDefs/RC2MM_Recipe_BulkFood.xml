@@ -846,7 +846,7 @@
             <li>AnimalProductRaw</li>
           </categories>
         </filter>
-        <count>0.5</count>
+        <count>5</count>
       </li>
       <li>
         <filter>
@@ -855,7 +855,7 @@
             <li>RC2_FruitProcessed</li>
           </categories>
         </filter>
-        <count>0.5</count>
+        <count>5</count>
       </li>
       <li>
         <filter>
@@ -864,7 +864,7 @@
             <li>RC2_GrainsProcessed</li>
           </categories>
         </filter>
-        <count>0.5</count>
+        <count>5</count>
       </li>
       <li>
         <filter>
@@ -873,7 +873,7 @@
             <li>RC2_VegetablesProcessed</li>
           </categories>
         </filter>
-        <count>0.5</count>
+        <count>5</count>
       </li>
     </ingredients>
     <products>

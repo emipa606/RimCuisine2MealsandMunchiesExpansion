@@ -1,5 +1,8 @@
 # Changelog for RimCuisine2MealsandMunchiesExpansion
 
+1.5.1 - Extravagant Meal should now have the correct cost in the cook-o-matic
+
+
 1.5.0 - Mod updated for 1.5 and passed autotests
 
 
