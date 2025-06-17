@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: ate canned fruit -->
+  <AteCannedFruitAsIngredient.stages.ate_canned_fruit.label>ate canned fruit</AteCannedFruitAsIngredient.stages.ate_canned_fruit.label>
+  <!-- EN: You know what, this ain't too bad! -->
+  <AteCannedFruitAsIngredient.stages.ate_canned_fruit.description>You know what, this ain't too bad!</AteCannedFruitAsIngredient.stages.ate_canned_fruit.description>
+  <!-- EN: ate canned meal -->
+  <AteCannedMeal.stages.ate_canned_meal.label>ate canned meal</AteCannedMeal.stages.ate_canned_meal.label>
+  <!-- EN: Eh.  Canned meals aren't as good as freshly cooked ones, but it could be worse. -->
+  <AteCannedMeal.stages.ate_canned_meal.description>Eh.  Canned meals aren't as good as freshly cooked ones, but it could be worse.</AteCannedMeal.stages.ate_canned_meal.description>
+  <!-- EN: ate canned meat -->
+  <AteCannedMeatAsIngredient.stages.ate_canned_meat.label>ate canned meat</AteCannedMeatAsIngredient.stages.ate_canned_meat.label>
+  <!-- EN: I don't want to know what kind of meat this is, but whatever it is, ick. -->
+  <AteCannedMeatAsIngredient.stages.ate_canned_meat.description>I don't want to know what kind of meat this is, but whatever it is, ick.</AteCannedMeatAsIngredient.stages.ate_canned_meat.description>
+  <!-- EN: ate canned vegetables -->
+  <AteCannedVegetablesAsIngredient.stages.ate_canned_vegetables.label>ate canned vegetables</AteCannedVegetablesAsIngredient.stages.ate_canned_vegetables.label>
+  <!-- EN: Eh, could be worse, but it has a tinny flavor. -->
+  <AteCannedVegetablesAsIngredient.stages.ate_canned_vegetables.description>Eh, could be worse, but it has a tinny flavor.</AteCannedVegetablesAsIngredient.stages.ate_canned_vegetables.description>
+  <!-- EN: ate chocolate icecream -->
+  <AteChocolateIcecream.stages.ate_chocolate_icecream.label>ate chocolate icecream</AteChocolateIcecream.stages.ate_chocolate_icecream.label>
+  <!-- EN: Delicious, yummy chocolate! -->
+  <AteChocolateIcecream.stages.ate_chocolate_icecream.description>Delicious, yummy chocolate!</AteChocolateIcecream.stages.ate_chocolate_icecream.description>
+  <!-- EN: ate extravagant meal -->
+  <AteExtravagantMeal.stages.ate_extravagant_meal.label>ate extravagant meal</AteExtravagantMeal.stages.ate_extravagant_meal.label>
+  <!-- EN: I... I have no words.. is.. is this what the gods eat? Do they eat like this on glitterworlds? -->
+  <AteExtravagantMeal.stages.ate_extravagant_meal.description>I... I have no words.. is.. is this what the gods eat? Do they eat like this on glitterworlds?</AteExtravagantMeal.stages.ate_extravagant_meal.description>
+  <!-- EN: ate fruit preserves -->
+  <AteFruitPreserves.stages.ate_fruit_preserves.label>ate fruit preserves</AteFruitPreserves.stages.ate_fruit_preserves.label>
+  <!-- EN: Yum! -->
+  <AteFruitPreserves.stages.ate_fruit_preserves.description>Yum!</AteFruitPreserves.stages.ate_fruit_preserves.description>
+  <!-- EN: ate fruit preserves in a meal -->
+  <AteFruitPreservesAsIngredient.stages.ate_fruit_preserves_in_a_meal.label>ate fruit preserves in a meal</AteFruitPreservesAsIngredient.stages.ate_fruit_preserves_in_a_meal.label>
+  <!-- EN: Yum! -->
+  <AteFruitPreservesAsIngredient.stages.ate_fruit_preserves_in_a_meal.description>Yum!</AteFruitPreservesAsIngredient.stages.ate_fruit_preserves_in_a_meal.description>
+  <!-- EN: ate icecream -->
+  <AteIcecream.stages.ate_icecream.label>ate icecream</AteIcecream.stages.ate_icecream.label>
+  <!-- EN: Delicious, yummy icecream! -->
+  <AteIcecream.stages.ate_icecream.description>Delicious, yummy icecream!</AteIcecream.stages.ate_icecream.description>
+</LanguageData>

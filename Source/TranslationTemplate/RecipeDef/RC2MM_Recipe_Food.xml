@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: make canned fruit -->
+  <RC2_CookCannedFruit.label>make canned fruit</RC2_CookCannedFruit.label>
+  <!-- EN: Put fruit in a sterlized can to prevent rotting. -->
+  <RC2_CookCannedFruit.description>Put fruit in a sterlized can to prevent rotting.</RC2_CookCannedFruit.description>
+  <!-- EN: Canning fruit. -->
+  <RC2_CookCannedFruit.jobString>Canning fruit.</RC2_CookCannedFruit.jobString>
+  <!-- EN: make canned fruit in bulk -->
+  <RC2_CookCannedFruitBulk.label>make canned fruit in bulk</RC2_CookCannedFruitBulk.label>
+  <!-- EN: Put fruit in a sterlized can to prevent rotting. -->
+  <RC2_CookCannedFruitBulk.description>Put fruit in a sterlized can to prevent rotting.</RC2_CookCannedFruitBulk.description>
+  <!-- EN: Canning fruit. -->
+  <RC2_CookCannedFruitBulk.jobString>Canning fruit.</RC2_CookCannedFruitBulk.jobString>
+  <!-- EN: make canned meals -->
+  <RC2_CookCannedMeal.label>make canned meals</RC2_CookCannedMeal.label>
+  <!-- EN: Repackage a simple meal into sterilized cans to keep it from spoiling. Makes 10 canned meals out of five simple meals. -->
+  <RC2_CookCannedMeal.description>Repackage a simple meal into sterilized cans to keep it from spoiling. Makes 10 canned meals out of five simple meals.</RC2_CookCannedMeal.description>
+  <!-- EN: Canning meals. -->
+  <RC2_CookCannedMeal.jobString>Canning meals.</RC2_CookCannedMeal.jobString>
+  <!-- EN: make canned meals in bulk -->
+  <RC2_CookCannedMealBulk.label>make canned meals in bulk</RC2_CookCannedMealBulk.label>
+  <!-- EN: Repackage a simple meal into sterilized cans to keep it from spoiling. Makes 40 canned meals out of ten simple meals. -->
+  <RC2_CookCannedMealBulk.description>Repackage a simple meal into sterilized cans to keep it from spoiling. Makes 40 canned meals out of ten simple meals.</RC2_CookCannedMealBulk.description>
+  <!-- EN: Canning meals. -->
+  <RC2_CookCannedMealBulk.jobString>Canning meals.</RC2_CookCannedMealBulk.jobString>
+  <!-- EN: make canned meat -->
+  <RC2_CookCannedMeat.label>make canned meat</RC2_CookCannedMeat.label>
+  <!-- EN: Put meat in a sterlized can to prevent rotting. Works with any meat, including insect and human meat! -->
+  <RC2_CookCannedMeat.description>Put meat in a sterlized can to prevent rotting. Works with any meat, including insect and human meat!</RC2_CookCannedMeat.description>
+  <!-- EN: Canning meat. -->
+  <RC2_CookCannedMeat.jobString>Canning meat.</RC2_CookCannedMeat.jobString>
+  <!-- EN: make canned meat in bulk -->
+  <RC2_CookCannedMeatBulk.label>make canned meat in bulk</RC2_CookCannedMeatBulk.label>
+  <!-- EN: Put meat in a sterlized can to prevent rotting. Works with any meat, including insect and human meat! -->
+  <RC2_CookCannedMeatBulk.description>Put meat in a sterlized can to prevent rotting. Works with any meat, including insect and human meat!</RC2_CookCannedMeatBulk.description>
+  <!-- EN: Canning meat. -->
+  <RC2_CookCannedMeatBulk.jobString>Canning meat.</RC2_CookCannedMeatBulk.jobString>
+  <!-- EN: make canned vegetables -->
+  <RC2_CookCannedVegetables.label>make canned vegetables</RC2_CookCannedVegetables.label>
+  <!-- EN: Put vegetables in a sterlized can to prevent rotting. -->
+  <RC2_CookCannedVegetables.description>Put vegetables in a sterlized can to prevent rotting.</RC2_CookCannedVegetables.description>
+  <!-- EN: Canning vegetables. -->
+  <RC2_CookCannedVegetables.jobString>Canning vegetables.</RC2_CookCannedVegetables.jobString>
+  <!-- EN: make canned vegetables in bulk -->
+  <RC2_CookCannedVegetablesBulk.label>make canned vegetables in bulk</RC2_CookCannedVegetablesBulk.label>
+  <!-- EN: Put vegetables in a sterlized can to prevent rotting. -->
+  <RC2_CookCannedVegetablesBulk.description>Put vegetables in a sterlized can to prevent rotting.</RC2_CookCannedVegetablesBulk.description>
+  <!-- EN: Canning vegetables. -->
+  <RC2_CookCannedVegetablesBulk.jobString>Canning vegetables.</RC2_CookCannedVegetablesBulk.jobString>
+  <!-- EN: cook extravagant meal -->
+  <RC2_CookExtravagantMeal.label>cook extravagant meal</RC2_CookExtravagantMeal.label>
+  <!-- EN: Cooks an extravagant meal out of meat, grains, vegetables, and fruit. -->
+  <RC2_CookExtravagantMeal.description>Cooks an extravagant meal out of meat, grains, vegetables, and fruit.</RC2_CookExtravagantMeal.description>
+  <!-- EN: Cooking extravagant meal. -->
+  <RC2_CookExtravagantMeal.jobString>Cooking extravagant meal.</RC2_CookExtravagantMeal.jobString>
+  <!-- EN: cook rubaboo -->
+  <RC2_CookRubaboo.label>cook rubaboo</RC2_CookRubaboo.label>
+  <!-- EN: Cooks a meal out of pemmican and just about anything else.  Great for lengthening food supplies. Try making it with pemmican and hardtack to really stretch out your food reserves! -->
+  <RC2_CookRubaboo.description>Cooks a meal out of pemmican and just about anything else.  Great for lengthening food supplies. Try making it with pemmican and hardtack to really stretch out your food reserves!</RC2_CookRubaboo.description>
+  <!-- EN: Cooking rubaboo. -->
+  <RC2_CookRubaboo.jobString>Cooking rubaboo.</RC2_CookRubaboo.jobString>
+  <!-- EN: make crisps -->
+  <RC2_Crisps.label>make crisps</RC2_Crisps.label>
+  <!-- EN: Make crisps out of vegetables, grains, or fruits.  Most commonly made out of potatos or corn though.  A tasty, salty snack! Makes 5. -->
+  <RC2_Crisps.description>Make crisps out of vegetables, grains, or fruits.  Most commonly made out of potatos or corn though.  A tasty, salty snack! Makes 5.</RC2_Crisps.description>
+  <!-- EN: Baking pastries. -->
+  <RC2_Crisps.jobString>Baking pastries.</RC2_Crisps.jobString>
+  <!-- EN: make chocolate icecream -->
+  <RC2_MakeChocolateIcecream.label>make chocolate icecream</RC2_MakeChocolateIcecream.label>
+  <!-- EN: Uses milk, sweeteners, and chocolate to make a tub of chocolate icecream.  Delicious and great for cooling you down on a warm day! Makes 5. -->
+  <RC2_MakeChocolateIcecream.description>Uses milk, sweeteners, and chocolate to make a tub of chocolate icecream.  Delicious and great for cooling you down on a warm day! Makes 5.</RC2_MakeChocolateIcecream.description>
+  <!-- EN: Making chocolate icecream. -->
+  <RC2_MakeChocolateIcecream.jobString>Making chocolate icecream.</RC2_MakeChocolateIcecream.jobString>
+  <!-- EN: bake cupcakes -->
+  <RC2_MakeCupcake.label>bake cupcakes</RC2_MakeCupcake.label>
+  <!-- EN: Cupcakes! These delicious, single-serve cakes are a tasty treat for birthday parties or parties in general.  Made out of flour, sweeteners, and eggs. Makes 10. -->
+  <RC2_MakeCupcake.description>Cupcakes! These delicious, single-serve cakes are a tasty treat for birthday parties or parties in general.  Made out of flour, sweeteners, and eggs. Makes 10.</RC2_MakeCupcake.description>
+  <!-- EN: Baking pastries. -->
+  <RC2_MakeCupcake.jobString>Baking pastries.</RC2_MakeCupcake.jobString>
+  <!-- EN: curdle cheese -->
+  <RC2_MakeCurds.label>curdle cheese</RC2_MakeCurds.label>
+  <!-- EN: Begin the cheesemaking process by curdling milk. -->
+  <RC2_MakeCurds.description>Begin the cheesemaking process by curdling milk.</RC2_MakeCurds.description>
+  <!-- EN: Curdling milk. -->
+  <RC2_MakeCurds.jobString>Curdling milk.</RC2_MakeCurds.jobString>
+  <!-- EN: make fruit preserves -->
+  <RC2_MakeFruitPreserves.label>make fruit preserves</RC2_MakeFruitPreserves.label>
+  <!-- EN: Uses sweets and fruit to preserve fruit.  Very tasty. Makes 5. -->
+  <RC2_MakeFruitPreserves.description>Uses sweets and fruit to preserve fruit.  Very tasty. Makes 5.</RC2_MakeFruitPreserves.description>
+  <!-- EN: Baking pastries. -->
+  <RC2_MakeFruitPreserves.jobString>Baking pastries.</RC2_MakeFruitPreserves.jobString>
+  <!-- EN: make icecream -->
+  <RC2_MakeIcecream.label>make icecream</RC2_MakeIcecream.label>
+  <!-- EN: Uses milk, sweeteners, and fruit to make a tub of icecream.  Delicious and great for cooling you down on a warm day! Makes 5. -->
+  <RC2_MakeIcecream.description>Uses milk, sweeteners, and fruit to make a tub of icecream.  Delicious and great for cooling you down on a warm day! Makes 5.</RC2_MakeIcecream.description>
+  <!-- EN: Making icecream. -->
+  <RC2_MakeIcecream.jobString>Making icecream.</RC2_MakeIcecream.jobString>
+</LanguageData>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: cannery -->
+  <RC2_Cannery.label>cannery</RC2_Cannery.label>
+  <!-- EN: An electrically-powered tabletop with all the necessary equipment to make canned goods. -->
+  <RC2_Cannery.description>An electrically-powered tabletop with all the necessary equipment to make canned goods.</RC2_Cannery.description>
+  <!-- EN: Steel available -->
+  <RC2_Cannery.comps.CompRefuelable.fuelGizmoLabel>Steel available</RC2_Cannery.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Steel until empty -->
+  <RC2_Cannery.comps.CompRefuelable.fuelLabel>Steel until empty</RC2_Cannery.comps.CompRefuelable.fuelLabel>
+  <!-- EN: Cannot work: Not enough steel. -->
+  <RC2_Cannery.comps.CompRefuelable.outOfFuelMessage>Cannot work: Not enough steel.</RC2_Cannery.comps.CompRefuelable.outOfFuelMessage>
+  <!-- EN: cheese press -->
+  <RC2_CheesePress.label>cheese press</RC2_CheesePress.label>
+  <!-- EN: A weighted contraption designed to press the remaining whey out of cheese curds to form it into a nice tough wheel of cheese. -->
+  <RC2_CheesePress.description>A weighted contraption designed to press the remaining whey out of cheese curds to form it into a nice tough wheel of cheese.</RC2_CheesePress.description>
+  <!-- EN: Cook-o-Matic -->
+  <RC2_Cookomatic.label>Cook-o-Matic</RC2_Cookomatic.label>
+  <!-- EN: THE COOK-O-MATIC 9,000,000,000 XXXL! Brought to you by RimCo., the same people who brought you Rim-Cola Classic! Cooks meals 9,000,000,000x faster than a lobotomized tribal chef! So easy even a trained monkey can operate it! ***Do not operate machinery if under the age of 18 or intoxicated.  Under no circumstances should you ever stick genitalia into the receptical.  RimCo. is not responsible for loss of limb or genitalia, spontaneous growth of additional body parts, or loss of sanity and/or virginity that occurs during operation of the COOK-O-MATIC 9,000,000,000 XXXL,  Do not allow trained monkeys or lobotomized natives to operate machinery without adult supervision. -->
+  <RC2_Cookomatic.description>THE COOK-O-MATIC 9,000,000,000 XXXL! Brought to you by RimCo., the same people who brought you Rim-Cola Classic! Cooks meals 9,000,000,000x faster than a lobotomized tribal chef! So easy even a trained monkey can operate it! ***Do not operate machinery if under the age of 18 or intoxicated.  Under no circumstances should you ever stick genitalia into the receptical.  RimCo. is not responsible for loss of limb or genitalia, spontaneous growth of additional body parts, or loss of sanity and/or virginity that occurs during operation of the COOK-O-MATIC 9,000,000,000 XXXL,  Do not allow trained monkeys or lobotomized natives to operate machinery without adult supervision.</RC2_Cookomatic.description>
+</LanguageData>

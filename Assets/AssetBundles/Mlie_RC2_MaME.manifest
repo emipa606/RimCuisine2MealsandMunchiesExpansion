@@ -1,0 +1,73 @@
+ManifestFileVersion: 0
+CRC: 3199467666
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e8cb90e2fbda79dd31ea8c619ee5e436
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: e8cb90e2fbda79dd31ea8c619ee5e436
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Food/CannedMeat/CannedMeat_B.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Food/Cheese/Cheese_a.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Food/ExtravagantMeal/ExtravagantMeal_b.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Food/Cupcake/Cupcake2_a.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Buildings/CheesePress/CheesePress_northm.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Food/Cupcake/Cupcake2_b.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Buildings/GruelPot/GruelPotm.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Food/IceCream/IceCream_c.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Food/ExtravagantMeal/ExtravagantMeal_a.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Food/Rubaboo/Rubaboo_a.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Food/Curd.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Food/CannedVegetables/CannedVegetables_B.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Food/IceCream/IceCream_a.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Buildings/Cannery/Cannery_east.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Food/CannedMeal/CannedMeal_B.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Food/FruitPreserves/FruitPreserves_B.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Food/Pizza/Pizza_b.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Food/Crisps/Crisps_b.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Food/CannedFruit/CannedFruit_B.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Food/Pizza/Pizza_a.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Food/Cheese/Cheese_c.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Food/CannedVegetables/CannedVegetables_A.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Food/ChocolateIceCream/ChocolateIceCream_a.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Food/Cupcake/Cupcake2_c.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Food/Gruel/Gruel_a.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Food/ChocolateIceCream/ChocolateIceCream_c.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Food/CannedMeat/CannedMeat_A.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Food/Crisps/Crisps_c.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Food/Crisps/Crisps_a.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Food/CannedFruit/CannedFruit_C.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Food/Pizza/Pizza_c.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Food/CannedFruit/CannedFruit_A.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Food/ChocolateIceCream/ChocolateIceCream_b.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Buildings/Cookomatic/Cookomatic_south.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Food/CannedMeal/CannedMeal_A.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Buildings/Cannery/Cannery_north.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Buildings/CheesePress/CheesePress_north.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2/CheesePress/CheesePress_southm.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Food/FruitPreserves/FruitPreserves_A.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Food/Cheese/Cheese_b.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Food/Gruel/Gruel_c.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Food/ExtravagantMeal/ExtravagantMeal_c.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Food/IceCream/IceCream_b.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Food/CannedVegetables/CannedVegetables_C.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Food/Rubaboo/Rubaboo_b.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Buildings/GruelPot/GruelPot.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Food/Rubaboo/Rubaboo_c.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Food/CannedMeal/CannedMeal_C.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Food/CannedMeat/CannedMeat_C.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2/CheesePress/CheesePress_south.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Buildings/Cookomatic/Cookomatic_north.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Buildings/Cookomatic/Cookomatic_east.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Food/FruitPreserves/FruitPreserves_C.png
+- Assets/Data/Mlie.RC2.MaME/Textures/RC2_Things/RC2_Food/Gruel/Gruel_b.png
+Dependencies: []

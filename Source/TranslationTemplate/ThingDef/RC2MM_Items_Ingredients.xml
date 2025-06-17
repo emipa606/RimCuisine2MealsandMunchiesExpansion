@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: cheese -->
+  <RC2_Cheese.label>cheese</RC2_Cheese.label>
+  <!-- EN: A hunk of delicious golden curdled milk known as cheese. Can't ever get enough of this stuff. -->
+  <RC2_Cheese.description>A hunk of delicious golden curdled milk known as cheese. Can't ever get enough of this stuff.</RC2_Cheese.description>
+  <!-- EN: milk curds -->
+  <RC2_MilkCurd.label>milk curds</RC2_MilkCurd.label>
+  <!-- EN: Curdled milk, a major step along the road to making cheese. -->
+  <RC2_MilkCurd.description>Curdled milk, a major step along the road to making cheese.</RC2_MilkCurd.description>
+</LanguageData>

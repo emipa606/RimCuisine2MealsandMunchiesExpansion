@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: cook simple meal in bulk -->
+  <CookSimpleMealBulk.label>cook simple meal in bulk</CookSimpleMealBulk.label>
+  <!-- EN: Cook a straightforward meal from one ingredient. Makes 10. -->
+  <CookSimpleMealBulk.description>Cook a straightforward meal from one ingredient. Makes 10.</CookSimpleMealBulk.description>
+  <!-- EN: Cooking simple meal. -->
+  <CookSimpleMealBulk.jobString>Cooking simple meal.</CookSimpleMealBulk.jobString>
+  <!-- EN: brew green tea in bulk -->
+  <RC2_BrewTeaBulk.label>brew green tea in bulk</RC2_BrewTeaBulk.label>
+  <!-- EN: Brew tea leaves into green tea. Makes 25. -->
+  <RC2_BrewTeaBulk.description>Brew tea leaves into green tea. Makes 25.</RC2_BrewTeaBulk.description>
+  <!-- EN: Brewing green tea. -->
+  <RC2_BrewTeaBulk.jobString>Brewing green tea.</RC2_BrewTeaBulk.jobString>
+  <!-- EN: cook extravagant meal in bulk -->
+  <RC2_CookExtravagantMealBulk.label>cook extravagant meal in bulk</RC2_CookExtravagantMealBulk.label>
+  <!-- EN: Cooks an extravagant meal out of meat, grains, vegetables, and fruit. -->
+  <RC2_CookExtravagantMealBulk.description>Cooks an extravagant meal out of meat, grains, vegetables, and fruit.</RC2_CookExtravagantMealBulk.description>
+  <!-- EN: Cooking extravagant meal. -->
+  <RC2_CookExtravagantMealBulk.jobString>Cooking extravagant meal.</RC2_CookExtravagantMealBulk.jobString>
+  <!-- EN: cook fine meal in bulk -->
+  <RC2_CookFineMealBulk.label>cook fine meal in bulk</RC2_CookFineMealBulk.label>
+  <!-- EN: Cook a somewhat complex meal from a combination of meat and plant ingredients. -->
+  <RC2_CookFineMealBulk.description>Cook a somewhat complex meal from a combination of meat and plant ingredients.</RC2_CookFineMealBulk.description>
+  <!-- EN: Cooking fine meal. -->
+  <RC2_CookFineMealBulk.jobString>Cooking fine meal.</RC2_CookFineMealBulk.jobString>
+  <!-- EN: cook lavish meal in bulk -->
+  <RC2_CookLavishMealBulk.label>cook lavish meal in bulk</RC2_CookLavishMealBulk.label>
+  <!-- EN: Cook a very complex meal from a combination of meat and plant ingredients. -->
+  <RC2_CookLavishMealBulk.description>Cook a very complex meal from a combination of meat and plant ingredients.</RC2_CookLavishMealBulk.description>
+  <!-- EN: Cooking lavish meal. -->
+  <RC2_CookLavishMealBulk.jobString>Cooking lavish meal.</RC2_CookLavishMealBulk.jobString>
+  <!-- EN: make crisps in bulk -->
+  <RC2_CrispsBulk.label>make crisps in bulk</RC2_CrispsBulk.label>
+  <!-- EN: Make crisps out of vegetables, grains, or fruits.  Most commonly made out of potatos or corn though.  A tasty, salty snack! Makes 25. -->
+  <RC2_CrispsBulk.description>Make crisps out of vegetables, grains, or fruits.  Most commonly made out of potatos or corn though.  A tasty, salty snack! Makes 25.</RC2_CrispsBulk.description>
+  <!-- EN: Baking pastries. -->
+  <RC2_CrispsBulk.jobString>Baking pastries.</RC2_CrispsBulk.jobString>
+  <!-- EN: make kibble in bulk -->
+  <RC2_Make_KibbleBulk.label>make kibble in bulk</RC2_Make_KibbleBulk.label>
+  <!-- EN: Make animal kibble by combining raw meat and plants. Makes 5x as much as before! -->
+  <RC2_Make_KibbleBulk.description>Make animal kibble by combining raw meat and plants. Makes 5x as much as before!</RC2_Make_KibbleBulk.description>
+  <!-- EN: Making kibble. -->
+  <RC2_Make_KibbleBulk.jobString>Making kibble.</RC2_Make_KibbleBulk.jobString>
+  <!-- EN: make pemmican -->
+  <RC2_Make_PemmicanBulk.label>make pemmican</RC2_Make_PemmicanBulk.label>
+  <!-- EN: Make pemmican, a preserved combination of meat and plant food. It doesn't taste amazing, but lasts a long time without refrigeration. Makes 10x as much. -->
+  <RC2_Make_PemmicanBulk.description>Make pemmican, a preserved combination of meat and plant food. It doesn't taste amazing, but lasts a long time without refrigeration. Makes 10x as much.</RC2_Make_PemmicanBulk.description>
+  <!-- EN: Making pemmican. -->
+  <RC2_Make_PemmicanBulk.jobString>Making pemmican.</RC2_Make_PemmicanBulk.jobString>
+  <!-- EN: make candy in bulk -->
+  <RC2_MakeCandyBulk.label>make candy in bulk</RC2_MakeCandyBulk.label>
+  <!-- EN: Uses sweets to make delicious, delicious candy.  Makes 50. -->
+  <RC2_MakeCandyBulk.description>Uses sweets to make delicious, delicious candy.  Makes 50.</RC2_MakeCandyBulk.description>
+  <!-- EN: Making candy. -->
+  <RC2_MakeCandyBulk.jobString>Making candy.</RC2_MakeCandyBulk.jobString>
+  <!-- EN: make chocolate icecream in bulk -->
+  <RC2_MakeChocolateIcecreamBulk.label>make chocolate icecream in bulk</RC2_MakeChocolateIcecreamBulk.label>
+  <!-- EN: Uses milk, sweeteners, and chocolate to make a tub of chocolate icecream.  Delicious and great for cooling you down on a warm day! -->
+  <RC2_MakeChocolateIcecreamBulk.description>Uses milk, sweeteners, and chocolate to make a tub of chocolate icecream.  Delicious and great for cooling you down on a warm day!</RC2_MakeChocolateIcecreamBulk.description>
+  <!-- EN: Making chocolate icecream. -->
+  <RC2_MakeChocolateIcecreamBulk.jobString>Making chocolate icecream.</RC2_MakeChocolateIcecreamBulk.jobString>
+  <!-- EN: bake cupcakes in bulk -->
+  <RC2_MakeCupcakeBulk.label>bake cupcakes in bulk</RC2_MakeCupcakeBulk.label>
+  <!-- EN: Cupcakes! These delicious, single-serve cakes are a tasty treat for birthday parties or parties in general.  Made out of flour, sweeteners, and eggs. Makes 50. -->
+  <RC2_MakeCupcakeBulk.description>Cupcakes! These delicious, single-serve cakes are a tasty treat for birthday parties or parties in general.  Made out of flour, sweeteners, and eggs. Makes 50.</RC2_MakeCupcakeBulk.description>
+  <!-- EN: Baking pastries. -->
+  <RC2_MakeCupcakeBulk.jobString>Baking pastries.</RC2_MakeCupcakeBulk.jobString>
+  <!-- EN: make fruit preserves in bulk -->
+  <RC2_MakeFruitPreservesBulk.label>make fruit preserves in bulk</RC2_MakeFruitPreservesBulk.label>
+  <!-- EN: Uses sweets and fruit to preserve fruit.  Very tasty. Makes 25. -->
+  <RC2_MakeFruitPreservesBulk.description>Uses sweets and fruit to preserve fruit.  Very tasty. Makes 25.</RC2_MakeFruitPreservesBulk.description>
+  <!-- EN: Baking pastries. -->
+  <RC2_MakeFruitPreservesBulk.jobString>Baking pastries.</RC2_MakeFruitPreservesBulk.jobString>
+  <!-- EN: make hardtack in bulk -->
+  <RC2_MakeHardtackBulk.label>make hardtack in bulk</RC2_MakeHardtackBulk.label>
+  <!-- EN: Make hardtack, a tough biscuit or cracker that lasts for years and fills you up.  Doesn't taste too great though. Makes 70. -->
+  <RC2_MakeHardtackBulk.description>Make hardtack, a tough biscuit or cracker that lasts for years and fills you up.  Doesn't taste too great though. Makes 70.</RC2_MakeHardtackBulk.description>
+  <!-- EN: Making hardtack. -->
+  <RC2_MakeHardtackBulk.jobString>Making hardtack.</RC2_MakeHardtackBulk.jobString>
+  <!-- EN: make icecream in bulk -->
+  <RC2_MakeIcecreamBulk.label>make icecream in bulk</RC2_MakeIcecreamBulk.label>
+  <!-- EN: Uses milk, sweeteners, and fruit to make a tub of icecream.  Delicious and great for cooling you down on a warm day! Makes 25. -->
+  <RC2_MakeIcecreamBulk.description>Uses milk, sweeteners, and fruit to make a tub of icecream.  Delicious and great for cooling you down on a warm day! Makes 25.</RC2_MakeIcecreamBulk.description>
+  <!-- EN: Making icecream. -->
+  <RC2_MakeIcecreamBulk.jobString>Making icecream.</RC2_MakeIcecreamBulk.jobString>
+  <!-- EN: make juice in bulk -->
+  <RC2_MakeJuiceBulk.label>make juice in bulk</RC2_MakeJuiceBulk.label>
+  <!-- EN: Uses one or more fruits to make delicious juice.  Makes 25. -->
+  <RC2_MakeJuiceBulk.description>Uses one or more fruits to make delicious juice.  Makes 25.</RC2_MakeJuiceBulk.description>
+  <!-- EN: Making juice. -->
+  <RC2_MakeJuiceBulk.jobString>Making juice.</RC2_MakeJuiceBulk.jobString>
+  <!-- EN: bake pastries in bulk -->
+  <RC2_MakePastryBulk.label>bake pastries in bulk</RC2_MakePastryBulk.label>
+  <!-- EN: Uses sweets and flour to make pastries.  No not pasties, pastries! Careful of any law enforcement nearby, however, as they'll eat it all. Makes 50. -->
+  <RC2_MakePastryBulk.description>Uses sweets and flour to make pastries.  No not pasties, pastries! Careful of any law enforcement nearby, however, as they'll eat it all. Makes 50.</RC2_MakePastryBulk.description>
+  <!-- EN: Baking pastries. -->
+  <RC2_MakePastryBulk.jobString>Baking pastries.</RC2_MakePastryBulk.jobString>
+  <!-- EN: make nectar from agave in bulk -->
+  <RC2_ProcessAgaveBulk.label>make nectar from agave in bulk</RC2_ProcessAgaveBulk.label>
+  <!-- EN: Process agave fruit into a delicious, sticky nectar. Makes 5. -->
+  <RC2_ProcessAgaveBulk.description>Process agave fruit into a delicious, sticky nectar. Makes 5.</RC2_ProcessAgaveBulk.description>
+  <!-- EN: Processing agave. -->
+  <RC2_ProcessAgaveBulk.jobString>Processing agave.</RC2_ProcessAgaveBulk.jobString>
+  <!-- EN: make chocolate in bulk -->
+  <RC2_ProcessCacaoBulk.label>make chocolate in bulk</RC2_ProcessCacaoBulk.label>
+  <!-- EN: Combine cocoa beans and sweeteners to make delicous, delicious chocolate. Makes 25. -->
+  <RC2_ProcessCacaoBulk.description>Combine cocoa beans and sweeteners to make delicous, delicious chocolate. Makes 25.</RC2_ProcessCacaoBulk.description>
+  <!-- EN: Making Chocolate -->
+  <RC2_ProcessCacaoBulk.jobString>Making Chocolate</RC2_ProcessCacaoBulk.jobString>
+  <!-- EN: brew coffee in bulk -->
+  <RC2_ProcessCoffeeBulk.label>brew coffee in bulk</RC2_ProcessCoffeeBulk.label>
+  <!-- EN: Brew raw coffee beans into delicous coffee. Makes 25. -->
+  <RC2_ProcessCoffeeBulk.description>Brew raw coffee beans into delicous coffee. Makes 25.</RC2_ProcessCoffeeBulk.description>
+  <!-- EN: Brewing coffee. -->
+  <RC2_ProcessCoffeeBulk.jobString>Brewing coffee.</RC2_ProcessCoffeeBulk.jobString>
+  <!-- EN: make tofu in bulk -->
+  <RC2_ProcessSoybeanBulk.label>make tofu in bulk</RC2_ProcessSoybeanBulk.label>
+  <!-- EN: Make tofu out of soybeans.  Ew. Makes 5. -->
+  <RC2_ProcessSoybeanBulk.description>Make tofu out of soybeans.  Ew. Makes 5.</RC2_ProcessSoybeanBulk.description>
+  <!-- EN: Making tofu. -->
+  <RC2_ProcessSoybeanBulk.jobString>Making tofu.</RC2_ProcessSoybeanBulk.jobString>
+</LanguageData>

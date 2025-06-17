@@ -1,6 +1,9 @@
 {
   "Continued": true,
-  "CanAdd": "",
-  "CanRemove": "",
-  "PreviewVersion": "1.5"
+  "CanAdd": "0",
+  "CanRemove": "2",
+  "PreviewVersion": "1.6",
+  "LastXmlCleaning": "2025-06-17T22:21:19.8741216+02:00",
+  "SocialImageSet": true,
+  "SearchTags": " food"
 }
