@@ -266,7 +266,7 @@
     <rotatable>false</rotatable>
     <designationCategory>RC2_RimCuisine</designationCategory>
     <researchPrerequisites>
-      <li>PackagedSurvivalMeal</li>
+      <li>Pemmican</li>
     </researchPrerequisites>
   </ThingDef>
 </Defs>
